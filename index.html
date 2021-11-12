@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styleForms.css">
+</head>
+<body>
+
+    <a href="/resposta.html" id="linkHTMLmessage" ></a>
+    <section class="section-forms" >
+
+        <form id = "form">
+            <h1>Criar Conta</h1>
+            <label>
+                Nome
+                <input type = "text" name = "nome" id = "nome" required >
+            </label>
+    
+            <label>
+                Email
+                <input type = "email" name = "email" id = "email" required>
+            </label>
+    
+            <label>
+                Senha
+                <input type = "password" name = "pass" id = "pass" required>
+            </label>
+    
+            <label>
+                Confirmar senha
+                <input type="password" name = "pass-check" id = "pass-check" required>
+            </label>
+            
+            <button type = "submit" >Cadastrar</button>
+            
+            <section id="message"></section>
+        </form>
+
+    </section>
+    
+    <script src = "post.js"></script>
+
+</body>
+</html>
